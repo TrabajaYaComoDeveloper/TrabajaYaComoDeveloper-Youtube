@@ -1,0 +1,23 @@
+name: Update Readme
+
+on:
+    workflow_dispatch:
+
+jobs: 
+    build:
+        runs-on: ubuntu-latest
+        
+        steps:
+            - uses: actions/checkout@v3
+            - name: Update readme step
+              uses: actions/setup-node@v3
+              with:
+                node-version: 21.x
+            - run: npm install
+            - run: npm run update-readme
+            - run: |
+                git config user.name trabajayacomodeveloper
+                git config user.email ${{secrets.MYEMAILGITHUB}}
+                git add README.md
+                git commit -m "Update readme FROM GITHUB ACTIONS"
+                git push origin main
