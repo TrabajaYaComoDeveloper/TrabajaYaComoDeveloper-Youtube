@@ -37,4 +37,4 @@ Una de mis funciones es ayudar a crecer profesionalmente al equipo y hacer entre
 </a>
 </br>
 
-Total repositorios: 2
+Total repositorios: %{{TOTAL_REPOSITORIES}}

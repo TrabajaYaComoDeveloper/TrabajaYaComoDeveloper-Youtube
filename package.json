@@ -1,0 +1,14 @@
+{
+  "name": "trabajayacomodeveloper-youtube",
+  "version": "1.0.0",
+  "description": "Buenas <img src=\"https://raw.githubusercontent.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper-Youtube/main/assets/hand_wave.gif\" width=\"30px\" height=\"30px\"> Mi nombre és Arià Prat.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
